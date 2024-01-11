@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Uhren Shop</title>
+</head>
+<body>
+    <header>
+        <h1>World of Watches</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="product">
+                <img src="https://images.pexels.com/photos/9982007/pexels-photo-9982007.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Uhr 1">
+                <h2>Daytona</h2>
+                <p>Preis: 300 Euro</p>
+                <button>In den Warenkorb</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn.pixabay.com/photo/2023/08/07/03/58/rolex-8174269_1280.jpg" alt="Uhr 2">
+                <h2>Fortnite</h2>
+                <p>Preis: 200 Euro</p>
+                <button>In den Warenkorb</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn.pixabay.com/photo/2022/05/18/07/30/watch-7204672_640.jpg" alt="Uhr 3">
+                <h2>Bulovia</h2>
+                <p>Preis: 150 Euro</p>
+                <button>In den Warenkorb</button>
+            </div>
+            <!-- Neue Produkte -->
+            <div class="product">
+                <img src="https://cdn.pixabay.com/photo/2022/05/18/07/30/watch-7204672_640.jpg" alt="Uhr 4">
+                <h2>Omega Seamaster</h2>
+                <p>Preis: 800 Euro</p>
+                <button>In den Warenkorb</button>
+            </div>
+            <div class="product">
+                <img src="https://images.pexels.com/photos/9982514/pexels-photo-9982514.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Uhr 5">
+                <h2>Datejust</h2>
+                <p>Preis: 120 Euro</p>
+                <button>In den Warenkorb</button>
+            </div>
+            <div class="product">
+                <img src="https://images.pexels.com/photos/9982350/pexels-photo-9982350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Uhr 6">
+                <h2>Patek Philippe</h2>
+                <p>Preis: 380 Euro</p>
+                <button>In den Warenkorb</button>
+            </div>
+        </div>
+    </div>
+    <div id="cart-container">
+        <h2>Warenkorb</h2>
+        <div id="cart"></div>
+        <p>Gesamtsumme: <span id="total">0</span> €</p>
+        <button class="delete-btn" onclick="clearCart()">Warenkorb leeren</button>
+    </div>
+    <footer>
+        <p>&copy; 2023 Uhren Shop</p>
+    </footer>
+</body>
+</html>
